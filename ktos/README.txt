@@ -1,0 +1,1 @@
+http://howtodoinjava.com/spring/spring-boot/spring-boot-jsp-view-example/
