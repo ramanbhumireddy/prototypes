@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.ctrls;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -18,4 +18,5 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter{
         resolver.setSuffix(".jsp");
         return resolver;
     }
+	
 }

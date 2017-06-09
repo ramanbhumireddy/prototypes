@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.conf;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -16,4 +16,5 @@ public class TasksApplication extends SpringBootServletInitializer {
 	public static void main(String[] args) {
 		SpringApplication.run(TasksApplication.class, args);
 	}
+	
 }

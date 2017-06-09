@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.ctrls;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,4 +11,5 @@ public class MainController {
     public String homepage(){
         return "index";
     }
+   
 }
