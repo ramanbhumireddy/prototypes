@@ -1,0 +1,31 @@
+elasticacheServersConfig:
+  idleConnectionTimeout: 300000 #(value in milliseconds)
+  pingTimeout: 1000
+  connectTimeout: 10000
+  timeout: 3000
+  retryAttempts: 3
+  retryInterval: 1500
+  reconnectionTimeout: 3000
+  failedAttempts: 3
+  password: null
+  subscriptionsPerConnection: 5
+  clientName: null
+  loadBalancer: !<org.redisson.connection.balancer.RoundRobinLoadBalancer> {}
+  slaveSubscriptionConnectionMinimumIdleSize: 1
+  slaveSubscriptionConnectionPoolSize: 50
+  slaveConnectionMinimumIdleSize: 10
+  slaveConnectionPoolSize: 64
+  masterConnectionMinimumIdleSize: 10
+  masterConnectionPoolSize: 64
+  readMode: "SLAVE"
+  nodeAddresses:
+  - "redis://127.0.0.1:6379"
+  #- "redis://127.0.0.1:2815"
+  #- "redis://127.0.0.1:2813"
+  scanInterval: 1000
+threads: 0
+nettyThreads: 0
+codec: !<org.redisson.codec.SnappyCodec> {}
+useLinuxNativeEpoll: false #Activates an unix socket if servers binded to loopback interface. 
+                           #Also used for epoll transport activation. 
+                           #netty-transport-native-epoll library should be included in classpath.

@@ -1,0 +1,47 @@
+rest client
+--------------
+http://howtodoinjava.com/spring/spring-restful/spring-restful-client-resttemplate-example/
+
+http://www.concretepage.com/spring/spring-mvc/spring-rest-client-resttemplate-consume-restful-web-service-example-xml-json
+
+rest oauth
+-----------
+
+https://springframework.guru/using-the-h2-database-console-in-spring-boot-with-spring-security/
+
+
+http://websystique.com/springmvc/spring-4-mvc-jpa2-hibernate-many-to-many-example/
+
+
+http://websystique.com/spring-boot/spring-boot-angularjs-spring-data-jpa-crud-app-example/
+
+
+
+h2 db configuration
+------------------------------------------
+https://springframework.guru/using-the-h2-database-console-in-spring-boot-with-spring-security/
+
+
+http://localhost:8080/console/login.do?
+
+
+
+redisson
+--------------------------
+http://www.oodlestechnologies.com/blogs/How-to-use-Spring-Data-Redis-for-Storing-Object-in-Redis-In-Memory-Database
+memorynotfound.com/spring-redis-application-configuration-example/
+
+https://www.infoq.com/articles/Next-Generation-Session-Management-with-Spring-Session
+
+
+caching
+----------
+http://tutorials.jenkov.com/software-architecture/caching-techniques.html
+https://www.digitalocean.com/community/tutorials/web-caching-basics-terminology-http-headers-and-caching-strategies
+
+
+0-------------------------------
+HttpServletResponse httpResponse = (HttpServletResponse) response;
+httpResponse.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1
+httpResponse.setHeader("Pragma", "no-cache"); // HTTP 1.0
+httpResponse.setDateHeader("Expires", 0); // Proxies.
